@@ -53,6 +53,8 @@ function RecipeCreate({ handleCreate }) {
                 name="photo"
                 id="photo"
                 placeholder="URL"
+                type="image"
+                alt="image"
                 onChange={handleChange}
                 value={formData.photo}
                 required
