@@ -2,7 +2,6 @@ import React from "react";
 import RecipeTable from "./RecipeTable";
 
 function RecipeList({recipes, deleteRecipe}) {
-
   return (
     <div className="recipe-list">
       <table>
